@@ -73,3 +73,20 @@ table {
 th, td {
   padding: 15px;
 }
+
+@media (max-width : 900px) {
+  .Products{
+    display: flex;
+    flex-direction: column;
+  }
+  .toggle-columns{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+  }
+
+  #product-list{
+    width: 100%;
+    overflow: scroll;
+  }
+}
